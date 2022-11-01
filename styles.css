@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.background-img {
+    width: 850px;
+    height: 850px;
+    display: flex;
+}
+
+div.top {
+    padding-top: 50px;
+    padding: 40px;
+    background-color: #dadce0;
+    width: 75%;
+    margin: 100px;
+    border: 1px solid red;
+}
+
+label {
+    width: 50%;
+    float: left;
+    gap: 10px;
+    text-align: left;
+}
+
+input {
+    align-items: center;
+    border: 1px solid red;
+    display: inline-block;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    width: 100%;
+    margin: 100px;
+    padding: 30px;
+}
+
+.left-side {
+    border: 1px solid red;
+}
+
+.right-side {
+    border: 1px solid red;
+}
